@@ -126,7 +126,7 @@ public class GUIFrame extends JFrame  {
                             fields,
                             fields[0]);
                     if (field != null) {
-                        String newValue = JOptionPane.showInputDialog("Please input new value for field:" + field);
+                        String newValue = JOptionPane.showInputDialog("Please input new value for field: " + field);
                         conMan.edit(contactList.getSelectedIndex(), field, newValue);
                     }
 
